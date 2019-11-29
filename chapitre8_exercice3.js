@@ -22,6 +22,7 @@ const estPalindrome = mot => {
   return inverser(mot).toLowerCase() === mot.toLowerCase();
 };
 
+
 console.log(estPalindrome("RadAr")); // true
 console.log(estPalindrome("KAYAk")); // true
 console.log(estPalindrome("Bora-Bora")); // false
